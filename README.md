@@ -16,6 +16,12 @@ https://github.com/qmk/qmk_firmware/issues/3251
 KEYMAP -> LAYOUT_ergodox
 ```
 
+Commandで英かなを切り替えるため一部書き換え
+```
+GUI_T(KC_NO) -> GUI_T(KC_LANG2)
+RGUI_T(KC_NO) -> RGUI_T(KC_LANG1)
+```
+
 ## Compiling
 ```
 git clone git@github.com:qmk/qmk_firmware.git
