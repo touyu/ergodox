@@ -16,4 +16,15 @@ https://github.com/qmk/qmk_firmware/issues/3251
 KEYMAP -> LAYOUT_ergodox
 ```
 
+## Compiling
+```
+git clone git@github.com:qmk/qmk_firmware.git
+cd qmk_firmware
+make git-submodule
+```
 
+keymap.cを`keyboards/ergodox_ez/keymaps/touyu/`に入れる
+
+``` 
+make keyboard=ergodox_ez  keymap=touyu
+```
